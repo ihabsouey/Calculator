@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-image: url(img/back.jpg);
+    background-size:cover;
+    background-position: right;
+    height: 100vh;
+     
+}
+div{
+    
+  
+    margin-left: 40%;
+    padding-top: 200px;
+}
+table{
+    width: 300px;
+    background-color: rgb(73, 73, 73);
+    font-size: 45px;
+    color: white;
+}
+input{
+    color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+}
+#input{
+   
+    background-color: white;
+    padding: 14.5px 0px ;
+    width: 100%;
+    cursor:text;
+    color: black;
+}
+#first{
+    padding: 0;
+}
+td{
+    padding: 5px 20px;
+}
