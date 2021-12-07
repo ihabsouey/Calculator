@@ -8,7 +8,6 @@ body{
 }
 div{
     
-  
     margin-left: 40%;
     padding-top: 200px;
 }
@@ -30,6 +29,7 @@ input{
     background-color: white;
     padding: 14.5px 0px ;
     width: 100%;
+    
     cursor:text;
     color: black;
 }
@@ -38,4 +38,21 @@ input{
 }
 td{
     padding: 5px 20px;
+}
+@media (max-width : 900px){
+    div{
+    
+        margin-left: 30%;
+    }
+}
+@media (max-width : 500px){
+    div{
+    
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    table{
+        box-sizing: border-box;
+        width: 150px;
+    }
 }
