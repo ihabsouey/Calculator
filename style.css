@@ -34,14 +34,14 @@ input , button{
  #egal{
      padding: 0px;
  }
-#egal input{background-color: darkorange ;
+#egal input{background-color: #ff6c00 ;
 border-radius: 50%;
  font-size: 50px; width: 90%;
   
  
 }
 .op{
-    color: darkorange;
+    color: #ff6c00;
     border-radius: 5px;
      
       
