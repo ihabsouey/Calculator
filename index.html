@@ -18,17 +18,18 @@
     <div>
         <table>
             <tr>
-                <td colspan="3" id="first" collspan=2> <input id="input" type="text"> </td>
-                <td> <button type="button" class="fas fa-backspace" value="." onclick="del()"></button>
-
+                <td colspan="4" id="first" collspan=2> <input id="input" type="text"> </td>
+                
             </tr>
             <tr>
-                <td colspan="2"  id="clear"> <center> <input type="button" value="C" onclick="erease()"></center></td>
-                
+                <td >  <input class="op" type="button" value="C" onclick="erease()"></td>
+                <td> <button type="button" class="fas fa-backspace op" value="." onclick="del()"></button>
 
-                <td> <input type="button" value="/" onclick="display(value)"></td>
+
+                    <td><button class="op" type="button" value="*" onclick="display(value)"> <h5>Mod</h5> </button></td>
+        
                 
-                <td><input type="button" value="*" onclick="display(value)"></td>
+                <td><button class="op" type="button" value="*" onclick="display(value)"> x </button></td>
             </tr>
 
 
@@ -38,25 +39,26 @@
                 <td><input type="button" value="7" onclick="display(value)"></td>
                 <td><input type="button" value="8" onclick="display(value)"></td>
                 <td><input type="button" value="9" onclick="display(value)"></td>
-                <td><input type="button" value="+" onclick="display(value)"></td>
+                <td><input class="op"  type="button" value="/" onclick="display(value)"></td>
             </tr>
             <tr>
                 <td><input type="button" value="4" onclick="display(value)"></td>
                 <td><input type="button" value="5" onclick="display(value)"></td>
                 <td><input type="button" value="6" onclick="display(value)"></td>
-                <td><input type="button" value="-" onclick="display(value)"></td>
+                <td><input class="op" type="button" value="+" onclick="display(value)"></td>
             </tr>
             <tr>
                 <td><input type="button" value="1" onclick="display(value)"></td>
                 <td><input type="button" value="2" onclick="display(value)"></td>
                 <td><input type="button" value="3" onclick="display(value)"></td>
-                <td rowspan="2" id="egal"> <input type="button" value="=" onclick="result()"></td>
-            </tr>
+                <td><input  class="op" type="button" value="-" onclick="display(value)"></td>
+                     </tr>
             <tr>
                 <td></td>
                 <td><input type="button" value="0" onclick="display(value)"></td>
                 <td><input type="button" value="." onclick="display(value)"></td>
-
+                <td  id="egal"> <input type="button" value="=" onclick="result()"></td>
+       
             </tr>
         </table>
     </div>

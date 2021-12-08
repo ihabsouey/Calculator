@@ -6,6 +6,10 @@ body{
     height: 100vh;
      
 }
+h5{
+    margin: 0;
+    padding: 0;
+}
 div{
     
     margin-left: 40%;
@@ -13,9 +17,10 @@ div{
 }
 table{
     width: 300px;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(15,15, 15);
     font-size: 45px;
     color: white;
+    padding: 5px;
 }
 input , button{
     color: white;
@@ -27,23 +32,22 @@ input , button{
  #egal{
      padding: 0px;
  }
-#egal input{background-color: orange;
-border-radius: 5px;
+#egal input{background-color: darkorange ;
+border-radius: 50%;
  font-size: 50px; width: 90%;
- padding: 25px;
+  
  
 }
-
+.op{
+    color: darkorange;
+    border-radius: 5px;
+     
+      
+}
 #clear{
     padding: 0px;
 }
-#clear input{background-color: orange;
-border-radius: 5px;
-font-size: 35px; width: 80%;
  
-padding: 5px 25px;
-
-}
 #input{
    
     background-color: white;
