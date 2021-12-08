@@ -72,14 +72,11 @@ td{
         margin-left: 20%;
     }
 }
-@media (max-width : 500px){
+@media (max-width : 480px){
     div{
     
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 5%;
+        margin-right:5%;
     }
-    table{
-        box-sizing: border-box;
-        width: 150px;
-    }
+   
 }
