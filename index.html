@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/back.jpg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 
     <title>Calculator</title>
 </head>
+
 <body>
     <div>
         <table>
-            <tr >
+            <tr>
                 <td colspan="3" id="first" collspan=2> <input id="input" type="text"> </td>
-                <td > <input type="button" value="<" onclick="del()">  </td>
+                <td> <button type="button" class="fas fa-backspace" value="." onclick="del()"></button>
+
             </tr>
+            <tr>
+                <td colspan="2"  id="clear"> <center> <input type="button" value="C" onclick="erease()"></center></td>
+                
+
+                <td> <input type="button" value="/" onclick="display(value)"></td>
+                
+                <td><input type="button" value="*" onclick="display(value)"></td>
+            </tr>
+
+
+
+
             <tr>
                 <td><input type="button" value="7" onclick="display(value)"></td>
                 <td><input type="button" value="8" onclick="display(value)"></td>
@@ -33,16 +50,20 @@
                 <td><input type="button" value="1" onclick="display(value)"></td>
                 <td><input type="button" value="2" onclick="display(value)"></td>
                 <td><input type="button" value="3" onclick="display(value)"></td>
-                <td><input type="button" value="*" onclick="display(value)"></td>
+                <td rowspan="2" id="egal"> <input type="button" value="=" onclick="result()"></td>
             </tr>
             <tr>
-                <td><input type="button" value="C" onclick="erease()"></td>
+                <td></td>
                 <td><input type="button" value="0" onclick="display(value)"></td>
-                <td><input type="button" value="=" onclick="result()"></td>
-                <td><input type="button" value="/" onclick="display(value)"></td>
+                <td><input type="button" value="." onclick="display(value)"></td>
+
             </tr>
         </table>
     </div>
+
+
+
     <script src="index.js"></script>
 </body>
+
 </html>
