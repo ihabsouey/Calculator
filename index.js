@@ -17,3 +17,9 @@ function del(){
     var r = rslt.value
     rslt.value= r.slice(0,r.length-1)
 }
+document.body.addEventListener('keypress',function(e){
+    var keycode = e.keyCode;
+   if(keycode==13){
+         result()
+    }
+})
